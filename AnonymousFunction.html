@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demo: Anonymous Function</h1>
+    <script>
+        var showMessage = function(n1,n2){
+            alert("Hello World!");
+            var sum = n1+n2;
+            document.write("Sum of a given numbers is " +sum);
+            
+        };
+        var sayHello = function(firstName){
+            alert("Hello " + firstName);
+        };
+        n1 = parseInt(prompt("Enter a Number :","Enter a Number"));
+        n2 = parseInt(prompt("Enter a Number :","Enter a Number"));
+        showMessage(n1,n2);
+        sayHello("Bill")
+        
+    </script>
+</body>
+</html>

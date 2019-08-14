@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variable Arguments</title>
+    <script language ="JavaScript">
+    function Sum()
+    {
+        var ans = 0;
+        var len = Sum.arguments.length;
+        for(i = 0;i<len;i++)
+        {
+            ans+= Sum.arguments[i];
+        }
+        document.write("The Sum is" +ans+'<br>'+'<br>');
+        return ans;
+    }
+    var total
+    </script>
+</head>
+<body>
+        <h1 align = "center">Function is to display the sum of a numbers</h1>
+        <script language = "JavaScript">
+        Sum(10,20);
+        Sum(10,20,30,40);
+        Sum(10,20,30,40,50);
+        </script>
+        
+</body>
+</html>
